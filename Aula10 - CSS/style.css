@@ -1,0 +1,37 @@
+* {
+    
+}
+
+.desafio1 {
+    background-color: rgb(63, 16, 192);
+    color: orange
+}
+
+#lista1 {
+    background-color: #244F7C;
+    color: rgb(78, 9, 9)
+}
+
+#lista2 {
+    background-color: rgb(31, 145, 165);
+    color: rgb(22, 112, 41)
+}
+
+ol {
+    list-style-type: upper-roman
+}
+
+ul {
+    list-style: georgian
+}
+
+.classdiv {
+    background-color: #77a5d6;
+    width: 620px;
+    height: 420px;
+
+    background-image:url(https://www.petz.com.br/blog/wp-content/uploads/2019/07/vida-de-gato.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}

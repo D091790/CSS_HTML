@@ -1,0 +1,35 @@
+* {
+    width: 0px;
+    height: 0px;
+}
+
+
+.button__vermelho {
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    
+    display: inline;
+    position:relative;
+
+   
+}
+
+.button__amarelo {
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+   
+
+    display: inline-block;
+    position:relative;
+    
+    
+}
+
+.button__verde {
+    background-color: green;
+    height: 100px;
+    width: 100px;
+    top:30%
+}

@@ -1,0 +1,41 @@
+*{
+    height: 0px;
+    width: 0px;
+}
+
+div {
+    /* propriedades decorativas */
+    
+    border:solid 2px black;
+    display: inline-block;
+    font-size: 32px;
+    font-family: Arial;
+    /* propriedades que fazem o "problema" */
+    
+    width: 100px;
+    height: 110px;
+
+    overflow:hidden;
+
+    margin: 30px;
+
+    padding: 40px;
+
+    text-align: center;
+}
+
+.div__pratica {
+
+    border:dotted 2px black;
+    height: 200px;
+    width: 300px;
+
+    margin: 5px 8px;
+    padding: 6px 9px;
+
+    overflow:auto
+
+
+
+
+}
