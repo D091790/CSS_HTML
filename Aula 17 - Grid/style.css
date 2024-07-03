@@ -1,0 +1,143 @@
+* {
+
+    margin: 0px;
+    padding: 0px;
+
+
+}
+
+h1 {
+    font-size: 55px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(196, 226, 255);
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+
+
+    
+
+}
+
+#grid1 {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr 3fr 1fr;
+    gap: 5px;
+    grid-template-areas:
+        "header header"
+        "nav content"
+        "nav footer";
+}
+
+
+#grid2 {
+    display: grid;
+    grid-template-columns: repeat(5fr)
+    grid-template-rows: repeat(3fr)
+    gap: 5px;
+    grid-template-areas:
+        "nav nav header header header"
+        "nav nav content content item1"
+        "footer footer content content item2";
+}
+
+header {
+    grid-area: header;
+    background-color: rgb(187, 3, 132);
+
+    align-content: center;
+    text-align: center;
+}
+
+nav {
+    grid-area: nav;
+    background-color: rgb(55, 0, 255);
+
+    align-content: center;
+    text-align: center;
+}
+
+section {
+    grid-area: content;
+    background-color: rgb(255, 0, 85);
+
+    align-content: center;
+    text-align: center;
+}
+
+footer {
+    grid-area: footer;
+    background-color: rgb(5, 161, 65);
+
+    align-content: center;
+    text-align: center;
+}
+
+.item1 {
+    grid-area: item1;
+    background-color: rgb(5, 151, 161);
+    height: 90%;
+    width: 95%;
+    border-radius: 24px;
+    justify-self: end;
+    align-self: center;
+    align-content: center;
+    text-align: center;
+
+}
+
+.item2 {
+    grid-area: item2;
+    background-color: rgb(151, 161, 5);
+    height: 90%;
+    width: 95%;
+    border-radius: 24px;
+    justify-self: end;
+    align-self: center;
+    align-content: center;
+    text-align: center;
+    align-self: self-end;
+
+}
+
+
+#header2{
+    background-color: blueviolet;
+    border-radius: 24px;
+    height: 95%;
+    width: 100%;
+    justify-self: end;
+
+}
+
+#nav2{
+    background-color: blueviolet;
+    border-radius: 24px;
+    height: 95%;
+    width: 95%;
+    justify-self: start;
+
+}
+
+#footer2{
+    border-radius: 24px;
+    height: 95%;
+    width: 95%;
+    
+    align-self: flex-end;
+    
+    
+}
+
+#section2 {
+    
+    height: 100%;
+    width: 100%;
+    background-color: rgb(255, 0, 85);
+    border-radius: 24px;
+    justify-self: center;
+    
+}
